@@ -53,7 +53,7 @@ export default function TierUpgrade({ currentTier, userId }: TierUpgradeProps) {
     return (
       <div className="bg-gradient-to-r from-purple-600 to-pink-600 rounded-xl p-6 text-white text-center mb-8">
         <Crown className="w-12 h-12 mx-auto mb-4" />
-        <h2 className="text-2xl font-bold mb-2">You're at the highest tier!</h2>
+        <h2 className="text-2xl font-bold mb-2">You&apos;re at the highest tier!</h2>
         <p>Enjoy access to all premium events.</p>
       </div>
     )

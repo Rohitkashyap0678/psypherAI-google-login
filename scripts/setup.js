@@ -14,30 +14,32 @@ console.log('This script will help you set up your environment variables.\n');
 
 const questions = [
   {
-    key: 'NEXT_PUBLIC_CLERK_PUBLISHABLE_KEY',
-    prompt: 'Enter your Clerk Publishable Key (from Clerk Dashboard > API Keys): ',
-    required: true
+    key: "NEXT_PUBLIC_CLERK_PUBLISHABLE_KEY",
+    prompt: "pk_test_ZW5qb3llZC1tb25hcmNoLTY0LmNsZXJrLmFjY291bnRzLmRldiQ",
+    required: true,
   },
   {
-    key: 'CLERK_SECRET_KEY',
-    prompt: 'Enter your Clerk Secret Key (from Clerk Dashboard > API Keys): ',
-    required: true
+    key: "CLERK_SECRET_KEY",
+    prompt: "sk_test_iKZJaYhlDYzzQtStqVWVrw50uq3ivDjIyNB0efrU81",
+    required: true,
   },
   {
-    key: 'NEXT_PUBLIC_SUPABASE_URL',
-    prompt: 'Enter your Supabase URL (from Supabase Dashboard > Settings > API): ',
-    required: true
+    key: "NEXT_PUBLIC_SUPABASE_URL",
+    prompt: "https://bjrcekzvvfwxbppgouaw.supabase.co",
+    required: true,
   },
   {
-    key: 'NEXT_PUBLIC_SUPABASE_ANON_KEY',
-    prompt: 'Enter your Supabase Anon Key (from Supabase Dashboard > Settings > API): ',
-    required: true
+    key: "NEXT_PUBLIC_SUPABASE_ANON_KEY",
+    prompt:
+      "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImJqcmNla3p2dmZ3eGJwcGdvdWF3Iiwicm9sZSI6ImFub24iLCJpYXQiOjE3NTM5NjEzNDIsImV4cCI6MjA2OTUzNzM0Mn0.yq8vQQ2_QPKozVz_UgRSdGkPDeAZVESq1cjGm6eQyxY): ",
+    required: true,
   },
   {
-    key: 'SUPABASE_SERVICE_ROLE_KEY',
-    prompt: 'Enter your Supabase Service Role Key (from Supabase Dashboard > Settings > API): ',
-    required: false
-  }
+    key: "SUPABASE_SERVICE_ROLE_KEY",
+    prompt:
+      "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImJqcmNla3p2dmZ3eGJwcGdvdWF3Iiwicm9sZSI6InNlcnZpY2Vfcm9sZSIsImlhdCI6MTc1Mzk2MTM0MiwiZXhwIjoyMDY5NTM3MzQyfQ.pGB_rZfu5MUDeXGJkRKWkyHnc40OZjuUajEBbfGxdrI",
+    required: false,
+  },
 ];
 
 const envVars = {};
