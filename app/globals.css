@@ -1,0 +1,42 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  * {
+    @apply border-gray-200;
+  }
+  body {
+    @apply bg-white text-gray-900;
+  }
+}
+
+@layer components {
+  .tier-badge {
+    @apply px-3 py-1 rounded-full text-xs font-medium uppercase tracking-wide;
+  }
+  
+  .tier-free {
+    @apply bg-tier-free/10 text-tier-free border border-tier-free/20;
+  }
+  
+  .tier-silver {
+    @apply bg-tier-silver/10 text-tier-silver border border-tier-silver/20;
+  }
+  
+  .tier-gold {
+    @apply bg-tier-gold/10 text-tier-gold border border-tier-gold/20;
+  }
+  
+  .tier-platinum {
+    @apply bg-tier-platinum/10 text-tier-platinum border border-tier-platinum/20;
+  }
+  
+  .card-hover {
+    @apply transition-all duration-300 hover:shadow-xl hover:scale-[1.02];
+  }
+  
+  .gradient-bg {
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  }
+} 
